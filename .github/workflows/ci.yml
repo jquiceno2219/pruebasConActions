@@ -1,11 +1,11 @@
 name: CI for testing
 
 on:
-  push:
-    pull_request:
+  push, pull_request:
     branches:
       - develop
       - staging
+      - ci-testing
 
 jobs:
   print:
